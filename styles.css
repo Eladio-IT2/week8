@@ -1,0 +1,195 @@
+/*Eladio  Chen Linxu*/
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+header {
+    text-align: center;
+    color: white;
+}
+.navbar {   
+    background-color: black; 
+    padding: 10px 0; 
+    text-align: center;
+    
+}  
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    padding: 8px 16px;
+    display: inline-block; 
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+   
+footer p {
+    margin: 0;
+} 
+.navbar .logo {  
+    font-size: 25px;  
+    font-weight: bold;
+    color: orange;  
+}
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+ 
+.hero h1 {
+    margin-bottom: 0.5rem;
+}
+ 
+.hero p {
+    margin-bottom: 1rem;
+}
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+}
+ 
+.product-card {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+ 
+.product-card:hover {
+    transform: translateY(-10px);
+}
+ 
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+.product-card h3 {
+    margin: 1rem 0 0.5rem;
+}
+ 
+.product-card button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+ 
+.product-card button:hover {
+    background: #555;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+.product-details{
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.img2{
+    width: 1000px;
+    height: 1000px;
+}
+.img3{
+    width: 1000px;
+    height: auto;
+}
+.product-details, .about-us, .blog, .support {
+    padding: 20px;
+}
+.container {  
+    width: 80%;  
+    margin: 0 auto;  
+    background-color: #fff;  
+    padding: 20px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.128);  
+    margin-top: 50px;  
+}  
+.contact-info {  
+    text-align: center;  
+    padding: 20px 0;  
+}  
+.contact-info h2 {  
+    margin-bottom: 20px;  
+}  
+.contact-info p {  
+    margin: 10px 0;  
+}
+.div1 {
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* For merging table borders */
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    text-align: center;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form textarea {
+    resize: vertical;
+}
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+.img4{
+    text-align: center;
+}
+.float-left {
+    float: left;
+    margin-right: 10px; /* Setting the right margin */
+    width: 70px;
+    height: 70px;
+}
+
+ 
